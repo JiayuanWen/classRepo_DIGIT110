@@ -1,1 +1,1 @@
-Test repo for course DIGIT110
+Personal repo for course DIGIT110
