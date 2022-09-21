@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- Jiayuan Wen -->
+<!-- DIGIT 110 -->
+
+<?xml-model href="wen_8_29_xml-exercise-3.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <Letter index="1" author="Marian Baldwin">      
+        <CurrentLocation>On Board La Touraine,</CurrentLocation>
+        <Date>June 30th, 1917.</Date>
+
+        <Body>
+            <Para p="1">
+                <Sentence s="1">Even now that we are out of sight of land, it seems impossible that
+                    I am actually off to France and, for the first time in my life, traveling
+                    alone.</Sentence>
+                <Sentence s="2">Everything has happened so quickly since the American Fund for
+                    French Wounded found an opening for me in Paris that I suppose I am still
+                    somewhat dazed and bewildered.</Sentence>
+                <Sentence s="3">The fact that I don't know what it will all be like and that I can't
+                    look ahead makes it easier to be happy and live in the present.</Sentence>
+                <Sentence s="4">Of course I have had a bit of a taste in New York of the work that
+                    the A. F. F. W. is doing but its Headquarters in Paris will be different in some
+                    ways I fancy.</Sentence>
+            </Para>
+            <Para p="2">
+                <Sentence s="1">I can't get over how lucky I am to have this chance for I realize
+                    how few girls of my age are getting across, and I understood the grit and pluck
+                    which made you encourage me on my great adventure and send me along a path which
+                    has proved so dangerous of late.</Sentence>
+            </Para>
+            <Para p="3">
+                <Sentence s="1">As we drifted down the river, in the sunset glow with two absurd
+                    tugs puffing alongside, I know that many eyes were moist and that the same
+                    thought was in all our minds.</Sentence>
+                <Sentence s="2">How many of this ship's company will see that sky-line again! It was
+                    very quiet, no one spoke much, and, little by little, the glow faded from the
+                    sky and one star after another appeared.</Sentence>
+                <Sentence s="3">I knew that you would be looking at those same stars down in
+                    Lakewood and that your thoughts and prayers were the same that filled my heart
+                    at that moment.</Sentence>
+                <Sentence s="4">Somehow distance does not separate, after all.</Sentence>
+            </Para>
+            <Para p="4">
+                <Sentence s="1">We waited near the Statue of Liberty until midnight—a rumor had it
+                    that a "personage" was to come on board.</Sentence>
+                <Sentence s="2">This individual was shrouded in mystery until we put to sea when it
+                    was given out that the party which had clambered aboard in the night was none
+                    other than the Italian Mission.</Sentence>
+                <Sentence s="3">Our spirits rose at once for, what with Frank Sayre on the boat and
+                    these distinguished Italian gentlemen, we shall doubtless be honored by a bigger
+                    convoy and so doubly safe.</Sentence>
+                <Sentence s="4">However, thus far we have but two destroyers following
+                    us.</Sentence>
+                <Sentence s="5">They can be seen distinctly outlined against the horizon, one on
+                    each side, and seem to be the same somber gray which all ships are affecting in
+                    this war.</Sentence>
+                <Sentence s="6">A sailor informed me this morning that we weren't in much danger for
+                    the first four or five days but that after that I might see some excitement.
+                    Here's hoping!</Sentence>
+            </Para>
+            <Para p="5">
+                <Sentence s="1">I have a small inside cabin and my room-mate is quite a
+                    character.</Sentence>
+                <Sentence s="2">She is a native of Haiti, voluble and very portly—has four large
+                    pieces of baggage in our tiny stateroom, wears a costume which resembles a
+                    Mother Hubbard and smokes countless thin cigarettes that smell like
+                    incense!</Sentence>
+                <Sentence s="3">When I appeared, there didn't seem to be much room for me but, as
+                    she says, luckily I am small, and I was soon tucked into the upper berth with my
+                    belongings!</Sentence>
+                <Sentence s="4">She really isn't bad and after looking me over carefully told me
+                    that she didn't think we would fight and from that time has beamed upon
+                    me!</Sentence>
+                <Sentence s="5">She is going over to join her son who has been fighting with the
+                    French since the beginning of the war but will never go back to the Front now,
+                    having lost some fingers off each hand.</Sentence>
+                <Sentence s="6">She is so thankful, she says, that he hasn't lost more than his
+                    fingers.</Sentence>
+            </Para>
+        </Body>
+    </Letter>
+    
+    <Letter index="2" author="Marian Baldwin">
+        <CurrentLocation>En route from Bordeaux to Paris,</CurrentLocation>
+        <Date>July 18th, 1917.</Date>
+
+        <Body>
+            <Para p="1"> On landing yesterday <action>I went straight to the <location>Hôtel de France</location></action> and it
+                certainly was good to have room to turn around in: as for a bed with real springs I
+                greeted it with enthusiasm! <action>Towards evening Frank and I took a long walk about the
+                    city</action>. A port town always interests me and <action>we saw it all at the loveliest time of
+                day</action>. <scenery>The harbor was full of fishing smacks and small craft of all kinds and
+                exquisite tones in the sails and rigging.</scenery> <scenery>The last rays of the sun cast a rosy hue
+                over everything, making one think at once of <location>Venice</location> and the days before the war.</scenery>
+                Later we wandered through some of the oldest parts of <location>Bordeaux</location> and I really felt
+                that I was abroad again! <scenery>The narrow winding streets and cobblestones, with here and
+                there an ancient façade or doorway and everywhere, in the poorest alleys, a bit of a
+                vine or potted plant in the windows.</scenery> <question>How do they manage to make it all so
+                picturesque and alluring?</question> </Para>
+
+            <Para p="2"> <society>The women and the old men are doing everything and it is surprising to see
+                the lady conductors</society>. <society>On this train they use women entirely, even in the dining car.</society>
+                The war hasn't robbed them of vivacity or their beautiful complexions and I believe
+                they are even prettier <apparance>in their simple black working clothes</apparance> than before. </Para>
+            <!-- <Society> tag is sentence(s) describing social conditions, norms, enviroments -->
+
+            <Para p="3"> We are at present passing through the famous vineyards and I have never
+                seen the country look so beautiful. <scenery>The crops seem in perfect condition, thanks to
+                the patient labor of these wonderful women, and the grain waves in profusion
+                everywhere.</scenery> <action>I have longed for you at every turn</action>, how you would enjoy it all. <scenery>The
+                poppies are in their prime and, as the train whirls by, they look like immense
+                splashes of red -almost like stains of blood against the gold of the wheat.</scenery> </Para>
+
+            <Para p="4"> <action>I have just come in from a very excellent meal in the dining car</action> -<action>the food
+                was served promptly by two French girls of the peasant type</action> and with a speed that
+                was wonderful, the car holding over thirty persons. </Para>
+            
+            <!-- Note: <action> only account for things the author or other people did actively/conciously with/witnout another person -->
+        </Body>
+
+        <locationSign>Paris</locationSign>
+    </Letter>
+    
+    <Letter index="3" author="Marian Baldwin">
+        <CurrentLocation>Aix,</CurrentLocation>
+        <Date>May 10th, 1918.</Date>
+
+        <Body>
+            <Para p="1"><action>I've been very busy to-day learning a new dance</action>. <action>The weekly vaudeville troop
+                arrived from <location>Paris</location> minus one number</action> and as <action>Mr. Carrell and I have danced on several
+                Stunt Night programs</action>, <action>they asked us to fill in for the missing number</action>. So we are on
+                for a week and we were so thankful that we had something that could be put right on
+                to fill in. This little taste of stage life under such delightful auspices, is great
+                fun. I have a dressing room all my own, No. 5, and Alice has been an angel, <action>acts as
+                maid and helps me change my costume between our two numbers</action>. <action>We are billed with the
+                professionals all over town</action>, "Miss Baldwin &amp; Mr. Carrell." It looked too
+                absurd.</Para>
+
+            <Para p="2"><action>I come on right after the "trained cats"</action> and, <action>while waiting in the wings</action>,
+                <action>dodge the "snake charmer's" serpents</action>! <apparance>She has two about twelve yards long apiece and
+                they wriggle and glide around behind the stage</apparance> and appear suddenly in the most
+                unexpected manner! The snake charmer keeps them between times rolled up neatly in a
+                lunch basket with a cloth drawn tightly over the top! <action>One of the acrobats told me
+                she doped them</action>. Sometimes I get so interested behind the scenes that I almost forget
+                to go on when my turn comes. These vaudeville artists are the most kind-hearted of
+                mortals and have been so good to me and <action>encouraged me in the nicest way the first
+                night, telling me to "keep smiling and not be scared."</action> One comedian has been
+                especially good to me. -<apparance>He white-washes his face and wears a green nose and a suit
+                with huge black and white checks</apparance>!</Para>
+            
+            <!-- Note: <action> only account for things the author did actively/conciously with/witnout another person -->
+        </Body>
+    </Letter>
+</root>
