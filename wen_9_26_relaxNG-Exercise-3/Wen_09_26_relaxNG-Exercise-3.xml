@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="Wen_09_26_relaxNG-Exercise-3.rnc" type="application/relax-ng-compact-syntax"?>
+<doc source="http://www.songlyrics.com/zack-hemsey/finding-home-lyrics/">
+    <title>Finding Home</title>
+    <artist>Zack Hemsey</artist>
+    Track <track>1</track> on
+    <album>Finding Home</album>
+    
+    Featuring
+    <ft>Heather Hemsey</ft>
+    
+    Produced by
+    <producer>Zack Hemsey</producer>
+    
+    Release Date
+    <release><month>July</month> <day>13</day>, <year>2012</year></release>
+ 
+    <para>
+        <summary>[<paraType>Chorus</paraType>: <singer>Heather Hemsey</singer>]</summary>
+        <l>I won't return</l>
+        <l>No no no no</l>
+        <l>So don't wait for me</l>
+        <l>No no no no</l>
+        <l>Because I won't find peace</l>
+        <l>No no no no</l>
+        <l>Until I find home</l>
+    </para>
+    
+    <para>
+        <summary>[<paraType>Verse</paraType> <order>1</order>: <singer>Zack Hemsey</singer>]</summary>
+        <l>I ain't never walk a mile in nobody else's shoes</l>
+        <l>I don't really know why some do the things they do</l>
+        <l>But I can understand what so many have been through</l>
+        <l>I can feel the urge to belong to something new</l>
+        <l>And I don't want to listen to another sad story</l>
+        <l>Don't want to be deceived with tales of false glory</l>
+        <l>And all these legends in their own mind bore me</l>
+        <l>I'm not distracted by the glitz that's before me</l>
+        <l>I can see the discontent that plagues you</l>
+        <l>I can feel the stress that moves to break you</l>
+        <l>I can sense the dread that overtakes you</l>
+        <l>And I can hear the chains that bind and claim you</l>
+        <l>But something isn't right with the hamster on the wheel</l>
+        <l>Day has turned to night now the servant won't kneel</l>
+        <l>Peasants want to fight, they refusing to yield</l>
+        <l>What the devil's going on, can anyone reveal</l>
+        <l>Though I don't have the faintest idea why people even here</l>
+        <l>I don't believe it has to do with salaries per year</l>
+        <l>I don't believe humanity is floating on a sphere</l>
+        <l>So that you can wait to live until retirement appears</l>
+        <l>And I'm just talking straight as I can steer</l>
+        <l>Society a bunch of crazy bastards over here</l>
+        <l>So puppets and your masters you can find me over there</l>
+        <l>Where I'll be patient waiting for your madness to clear</l>
+    </para>
+    
+    <para>
+        <summary>[<paraType>Chorus</paraType>: <singer>Heather Hemsey</singer>]</summary>
+        <l>I won't return</l>
+        <l>No no no no</l>
+        <l>So don't wait for me</l>
+        <l>No no no no</l>
+        <l>Because I won't find peace</l>
+        <l>No no no no</l>
+        <l>Until I find home</l>
+    </para>
+    
+    <para>
+        <summary>[<paraType>Verse</paraType> <order>2</order>: <singer>Zack Hemsey</singer>]</summary>
+      <l>I ain't never had to lose what I got</l>
+      <l>But everything I have is from refusing to stop</l>
+      <l>And I am not a fool though I duel with a fox</l>
+      <l>I remain immune to the ruse that he plot</l>
+      <l>And I'm one confused by the sight of a loved one remain in estranged from their life</l>
+      <l>When a husband puts his hands to his wife</l>
+      <l>Though he feels his own worth slip with every strike</l>
+      <l>And a truth will incite so I'm told</l>
+      <l>And the wars in my sight will grow old</l>
+      <l>And it's painful reflects on my soul</l>
+      <l>But my high hopes scream to an empty sky</l>
+      <l>No this not a lullaby, ya'll follow while I go</l>
+      <l>To a world full of men void of holes</l>
+      <l>To a place where MP's don't patrol</l>
+      <l>And to a time where no values are sold</l>
+      <l>There's no regime change because they conquer by divide</l>
+      <l>And the heroes of our day have died and washed up in the tide</l>
+      <l>Those who prayed for change have found their hope got left behind</l>
+      <l>Because money's greener than that grass that's on the other side</l>
+      <l>So I ride the hate of men</l>
+      <l>Let 'em play pretend</l>
+      <l>Push and shove and when they let their killing games begin</l>
+      <l>Take a step outside and watch without it getting in</l>
+      <l>And look to find a home that I can settle here within</l>
+    </para>
+    
+    <para>
+      <summary>[<paraType>Chorus</paraType>: <singer>Heather Hemsey</singer>]</summary>
+      <l>I won't return</l>
+      <l>No no no no</l>
+      <l>So don't wait for me</l>
+      <l>No no no no</l>
+      <l>Because I won't find peace</l>
+      <l>No no no no</l>
+      <l>Until I find home</l>
+      <l>I won't return</l>
+      <l>No no no no</l>
+      <l>So don't wait for me</l>
+      <l>No no no no</l>
+      <l>Because I won't find peace</l>
+      <l>No no no no</l>
+      <l>Until I find home</l>
+    </para>
+</doc>
