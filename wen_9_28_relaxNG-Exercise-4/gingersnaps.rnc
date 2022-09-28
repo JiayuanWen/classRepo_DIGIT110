@@ -1,0 +1,50 @@
+datatypes xsd = "http://www.w3.org/2001/XMLSchema-datatypes"
+
+start = xml
+xml = element xml {food, description, timeSumm, yield, ingredient, instruction}
+    food = element food {name, text}
+        name = attribute name {text}
+        
+    description = element description {text}
+    
+    timeSumm = element timeSumm {stepSumm+}
+        stepSumm = element stepSumm {summName, time}
+            summName = element summName {text}
+            time = element time {(t | (t_min, t_max)),text}
+                t = attribute t {xsd:duration}
+                t_min = attribute t_min {xsd:duration}
+                t_max = attribute t_max {xsd:duration}
+                
+    yield = element yield {heading?, yItem+}
+        heading = element heading {text}
+        yItem = element yItem {quantity, itemName}
+            quantity = element quantity {(q, unit, q_alt?, unit_alt?,text) | (q_min, q_max, unit, text)}
+                q = attribute q {xsd:double}
+                unit = attribute unit {text}
+                q_alt = attribute q_alt {xsd:double}
+                unit_alt = attribute unit_alt {text}
+                q_min = attribute q_min {xsd:double}
+                q_max = attribute q_max {xsd:double}
+            itemName = element itemName {text}
+            
+    ingredient = element ingredient {heading?, ingredientList+}
+        #heading = element heading {text}
+        ingredientList = element ingredientList {name_ingredientList, ing+, note*}
+            name_ingredientList = element name_ingredientList {text}
+            ing = element ing {quantity & item & noteMark*}
+                #quantity = element quantity {q, unit, q_alt?, unit_alt?,text}
+                item = element item {(name, text) | text}
+                    #name = element name {text}
+                noteMark = element noteMark {index, text}
+                    index = attribute index {xsd:integer}
+        note = element note {index, text}
+            #index = attribute index {xsd:ID}
+        
+    instruction = element instruction {heading?, step+}
+        #heading = element heading {text}
+        step = element step {s, mixed{action | item | quantity | time}+}
+            s = attribute s {xsd:integer}
+            action = element action {text}
+            #item = element item {text}
+            #quantity = element quantity {q, unit, q_alt?, unit_alt?,text}
+            #time = element time {(t | (t_min, t_max)),text}
