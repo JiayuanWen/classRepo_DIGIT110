@@ -1,10 +1,40 @@
-
 body {
-background-color: BurlyWood;
-color: indigo;
+background-color: rgb(32, 34, 41);
+color: blueviolet;
 font-family: arial, helvetica, sans-serif;
 }
-ol {list-style-type: lower-alpha;
-padding: 5em;
-    
+
+#welcome-msg {
+    text-align: center;
+    color: blueviolet;
+}
+
+#title-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+#title-img > img {
+    width: 20%;
+}
+
+#footer-msg {
+    text-align: center;
+    padding-left: 35px;
+}
+#footer-msg > a {
+    color:rgb(0, 140, 255)
+}
+
+#links {
+    list-style-type: lower-alpha;
+    padding-top: 150px;
+    padding-bottom: 20px;
+    color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+#links > a{
+    margin-left: 7px;
+    margin-right: 7px;
 }
