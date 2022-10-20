@@ -13,6 +13,7 @@ font-family: arial, helvetica, sans-serif;
     display: flex;
     justify-content: center;
     padding-top: 40px;
+
 }
 #title-img > img {
     width: 20%;
@@ -20,7 +21,7 @@ font-family: arial, helvetica, sans-serif;
 
 #footer-msg {
     text-align: center;
-    padding-left: 35px;
+
 }
 #footer-msg > a {
     color:rgb(0, 140, 255)
@@ -30,6 +31,7 @@ font-family: arial, helvetica, sans-serif;
     list-style-type: lower-alpha;
     padding-top: 150px;
     padding-bottom: 20px;
+    padding-right: 40px;
     color: blueviolet;
     display: flex;
     justify-content: center;
