@@ -1,9 +1,30 @@
+/*Body*/
 body {
 background-color: rgb(32, 34, 41);
 color: blueviolet;
 font-family: arial, helvetica, sans-serif;
 }
 
+/*Header*/
+.navbar {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    margin-block-start: 5px;
+    margin-block-end: 5px;
+    background-color: blueviolet;
+    height: 50px;
+    padding-top: 20px;
+}
+.navbar > a{
+    color: white;
+    text-decoration-line: none;
+    font-family: arial;
+    font-weight: bold;
+}
+
+/*Everything else*/
 #welcome-msg {
     text-align: center;
     color: blueviolet;
