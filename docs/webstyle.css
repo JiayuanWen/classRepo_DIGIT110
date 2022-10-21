@@ -60,6 +60,18 @@ p {
     background-color:rgb(248, 153, 36)
 }
 
+/*TEI Sample*/
+.maintitle {
+    color: white;
+}
+
+.toc > li > a {
+    color: rgb(0, 140, 255);
+}
+
+.headingNumber {
+    color: white;
+}
 
 /*Footer default*/
 #footer-msg {
