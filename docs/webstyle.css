@@ -50,12 +50,18 @@ p {
 #about-title-color {
     color:rgb(248, 153, 36)
 }
+
 #about-desc {
     display: flex;
     justify-content: center;
 }
 
-/*Footer*/
+#about-navbar-color {
+    background-color:rgb(248, 153, 36)
+}
+
+
+/*Footer default*/
 #footer-msg {
     color: blueviolet;
     text-align: center;
