@@ -65,11 +65,25 @@ p {
     color: white;
 }
 
+.numbered > li {
+    color: white;
+}
+.numbered > li > a{
+    color: rgb(0, 140, 255);
+}
+
 .toc > li > a {
     color: rgb(0, 140, 255);
 }
 
 .headingNumber {
+    color: white;
+}
+
+.refdoc > .table > table {
+    color: white;
+}
+.refdoc > h3 {
     color: white;
 }
 
