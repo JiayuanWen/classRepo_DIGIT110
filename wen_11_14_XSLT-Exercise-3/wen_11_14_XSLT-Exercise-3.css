@@ -1,0 +1,44 @@
+body {
+  background: #123944;
+  color: white;
+  /*font-family: Fantasy;*/
+  text-align: center;
+}
+
+.paraBody {
+    border-style: double;
+}
+
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
+}
+
+.event {
+    color: yellow;
+}
+
+.chara {
+    color: aqua;
+}
+
+.item {
+    color: #ff92ff;
+}
+
+.epit {
+    color: #ff755d;
+}
+
+.facti {
+    color: #17ff00;
+}
+
+.loca {
+    color: #ffb64e;
+}

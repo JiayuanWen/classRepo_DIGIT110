@@ -1,0 +1,19 @@
+body {
+    background: #2986cc;
+    color: #ffffff;
+}
+
+table, th, td {
+  border: 1px solid #ffffff;
+}
+
+.table-colume-date-letter {
+    text-align: center;
+}
+
+a:link {
+  color: #ffc300;
+}
+a:visited {
+  color: #ffffff;
+}
